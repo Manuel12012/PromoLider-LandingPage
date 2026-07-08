@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-[#131313] min-h-screen py-20">
+  <section class="bg-[#131313]  py-20">
     <div class="max-w-7xl mx-auto px-6">
       <!-- Encabezado -->
       <div class="max-w-3xl mb-16">

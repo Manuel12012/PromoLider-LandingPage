@@ -1,28 +1,34 @@
 <template>
-  <section class="bg-black min-h-screen py-20">
+  <section class="bg-black py-20">
     <div class="max-w-7xl mx-auto px-6">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
         <!-- CONTENIDO -->
-        <div>
+        <div class="col-span-2">
           <span
             class="inline-block text-green-500 border border-green-500 rounded-lg px-3 py-1 text-xs"
           >
             LATAM INITIATIVE 2026
           </span>
-
-          <h1
+          <h2
             class="text-white text-5xl lg:text-5xl font-semibold leading-tight mt-6"
           >
-            NO BUSCAMOS INVERSIONISTAS. NO BUSCAMOS CLIENTES.
-
-            <span class="text-green-500 block mt-2">
-              BUSCAMOS A LOS 5 BUILDERS EXTRAORDINARIOS
-            </span>
-
-            PARA LATINOAMÉRICA
+            No buscamos inversionistas.
+          </h2>
+          <h2
+            class="text-white text-5xl lg:text-5xl font-semibold leading-tight"
+          >
+            No buscamos clientes.
+          </h2>
+          <h1 class="text-green-500 block text-6xl">
+            Buscamos a los 5 builders extraordinarios
           </h1>
+          <h2
+            class="text-white text-5xl lg:text-5xl font-semibold leading-tight"
+          >
+            Para latinoamerica
+          </h2>
 
-          <p class="text-white text-xl mt-8 leading-loose max-w-2xl">
+          <p class="text-white text-xl mt-8 leading-8 max-w-2xl">
             Quienes demuestren su capacidad de alto rendimiento durante nuestro
             programa de inmersión tendrán la posibilidad de incorporarse al
             Programa de Vinculación Estratégica y ganarse el derecho de
@@ -45,7 +51,7 @@
         </div>
 
         <!-- IMAGEN -->
-        <div class="relative">
+        <div class="col-span-1">
           <img
             alt="A sophisticated 3D visual representing connection and technological growth in Latin America. Floating glass prisms are interconnected by golden glowing fibers against a dark obsidian background. Cinematic lighting highlights the sharp edges of the glass and the warmth of the gold energy lines, creating a premium high-tech aesthetic."
             class="w-full object-contain"
