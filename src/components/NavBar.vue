@@ -12,7 +12,7 @@
       </div>
 
       <div>
-        <button class="rounded-2xl bg-[#E4BB61] hover:bg-amber-200 px-4 py-3 cursor-pointer">
+        <button class="rounded-2xl bg-green-600 hover:bg-green-500 px-4 py-3 cursor-pointer">
             Aplicar ahora
         </button>
       </div>

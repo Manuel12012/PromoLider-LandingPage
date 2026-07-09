@@ -1,10 +1,10 @@
 <template>
   <section class="bg-black py-20">
     <div class="max-w-7xl mx-auto px-6">
-      <h2 class="text-gold text-2xl uppercase text-center font-bold">
+      <h2 class="text-white text-2xl uppercase text-center font-bold">
         Tu visualizacion a un año
       </h2>
-      <h1 class="text-primary text-4xl text-center mt-7">
+      <h1 class="text-white text-4xl text-center mt-7">
         (La identidad del Founding Partner)
       </h1>
       <p class="text-gray-400 mt-7 text-center">
@@ -18,7 +18,7 @@
 
         <div class="bg-secondary border-gray-400 rounded-3xl px-8 py-12 mt-10">
           <div
-            class="bg-yellow-500/10 w-fit rounded-xl border border-yellow-600 shadow-2xl p-1"
+            class="bg-white/10 w-fit rounded-xl border  shadow-2xl p-1"
           >
             <svg
               width="40px"
@@ -38,22 +38,22 @@
               <g id="SVGRepo_iconCarrier">
                 <path
                   d="M670.5 471.7c-7.1-3.1-14.2-5.9-21.4-8.5 49.8-40.3 81.6-101.8 81.6-170.6 0-121-98.4-219.4-219.4-219.4s-219.4 98.4-219.4 219.4c0 68.9 31.9 130.5 81.7 170.7C219.4 519.6 109 667.8 109 841.3h73.1c0-181.5 147.7-329.1 329.1-329.1 45.3 0 89.1 9 130.2 26.7l29.1-67.2zM511.3 146.3c80.7 0 146.3 65.6 146.3 146.3S592 438.9 511.3 438.9 365 373.2 365 292.6s65.6-146.3 146.3-146.3zM612.5 636.5c0 10.2 5.6 19.5 14.6 24.2l128 67.6c4 2.1 8.4 3.2 12.8 3.2s8.8-1.1 12.8-3.2l128-67.6c9-4.8 14.6-14.1 14.6-24.2s-5.6-19.5-14.6-24.2l-128-67.7c-8-4.2-17.6-4.2-25.6 0l-128 67.7c-9 4.7-14.6 14-14.6 24.2z m155.4-36.6l69.3 36.6-69.3 36.6-69.3-36.6 69.3-36.6z"
-                  fill="#E4BB61"
+                  fill="#FFFFFF"
                 ></path>
                 <path
                   d="M767.9 763.4l-147-77.7-25.6 48.5 172.6 91.2 171.9-90.8-25.6-48.5z"
-                  fill="#E4BB61"
+                  fill="#FFFFFF"
                 ></path>
                 <path
                   d="M767.9 851.4l-147-77.6-25.6 48.4 172.6 91.3 171.3-90.6-25.6-48.5z"
-                  fill="#E4BB61"
+                  fill="#FFFFFF"
                 ></path>
               </g>
             </svg>
           </div>
 
           <div class="">
-            <h3 class="text-gold text-2xl font-bold mt-5">
+            <h3 class="text-white text-2xl font-bold mt-5">
               Rostro Oficial de la categoria
             </h3>
 
@@ -68,10 +68,10 @@
         <!--GRID 2-->
         <div class="bg-secondary border-gray-400 rounded-3xl px-8 py-12 mt-10">
           <div
-            class="bg-yellow-500/10 w-fit rounded-xl border border-yellow-600 shadow-2xl p-1"
+            class="bg-white/10 w-fit rounded-xl border  shadow-2xl p-1"
           >
             <svg
-              fill="#E4BB61"
+              fill="#FFFFFF"
               version="1.1"
               id="Layer_1"
               xmlns="http://www.w3.org/2000/svg"
@@ -105,7 +105,7 @@
           </div>
 
           <div class="">
-            <h3 class="text-gold text-2xl font-bold mt-5">
+            <h3 class="text-white text-2xl font-bold mt-5">
               Orquestador de Ecosistemas
             </h3>
 
@@ -119,10 +119,10 @@
         <!--GRID 3-->
         <div class="bg-secondary border-gray-400 rounded-3xl px-8 py-12 mt-10">
           <div
-            class="bg-yellow-500/10 w-fit rounded-xl border border-yellow-600 shadow-2xl p-1"
+            class="bg-white/10 w-fit rounded-xl border  shadow-2xl p-1"
           >
             <svg
-              fill="#E4BB61"
+              fill="#FFFFFF"
               height="40px"
               width="40px"
               version="1.1"
@@ -131,7 +131,7 @@
               xmlns:xlink="http://www.w3.org/1999/xlink"
               viewBox="0 0 372.483 372.483"
               xml:space="preserve"
-              stroke="#E4BB61"
+              stroke="#FFFFFF"
             >
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
               <g
@@ -152,7 +152,7 @@
           </div>
 
           <div class="">
-            <h3 class="text-gold text-2xl font-bold mt-5">
+            <h3 class="text-white text-2xl font-bold mt-5">
               Voz en el circulo de desicion
             </h3>
 
@@ -166,10 +166,10 @@
         <!--GRID 4-->
         <div class="bg-secondary border-gray-400 rounded-3xl px-8 py-12 mt-10">
           <div
-            class="bg-yellow-500/10 w-fit rounded-xl border border-yellow-600 shadow-2xl p-1"
+            class="bg-white/10 w-fit rounded-xl border  shadow-2xl p-1"
           >
             <svg
-              fill="#E4BB61"
+              fill="#FFFFFF"
               height="40px"
               width="40px"
               version="1.1"
@@ -200,7 +200,7 @@
           </div>
 
           <div class="">
-            <h3 class="text-gold text-2xl font-bold mt-5">
+            <h3 class="text-white text-2xl font-bold mt-5">
               Participacion en el crecimiento
             </h3>
 
@@ -231,28 +231,28 @@
             <g id="SVGRepo_iconCarrier">
               <path
                 d="M21.9999 11.65H16.1999C14.6699 11.65 13.6199 10.49 13.6199 9.07001V5.84998C13.6199 4.42998 14.6699 3.27002 16.1999 3.27002H19.4199C20.8399 3.27002 21.9999 4.42998 21.9999 5.84998V11.65Z"
-                stroke="#E4BB61"
+                stroke="#FFFFFF"
                 stroke-width="1.5"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               ></path>
               <path
                 d="M22 11.6499C22 17.6999 20.87 18.6998 17.47 20.7198"
-                stroke="#E4BB61"
+                stroke="#FFFFFF"
                 stroke-width="1.5"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               ></path>
               <path
                 d="M10.37 11.65H4.56999C3.03999 11.65 1.98999 10.49 1.98999 9.07001V5.84998C1.98999 4.42998 3.03999 3.27002 4.56999 3.27002H7.79999C9.21999 3.27002 10.38 4.42998 10.38 5.84998V11.65"
-                stroke="#E4BB61"
+                stroke="#FFFFFF"
                 stroke-width="1.5"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               ></path>
               <path
                 d="M10.3701 11.6499C10.3701 17.6999 9.24009 18.6998 5.84009 20.7198"
-                stroke="#E4BB61"
+                stroke="#FFFFFF"
                 stroke-width="1.5"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -260,7 +260,7 @@
             </g>
           </svg>
         </div>
-        <h2 class="text-gold text-center text-xl uppercase tracking-[0.3em]">
+        <h2 class="text-white text-center text-xl uppercase tracking-[0.3em]">
           Una pausa de reflexión
         </h2>
         <p class="text-white text-center text-4xl leading-13 italic mt-10">
@@ -274,11 +274,10 @@
           distribuye y se escala en Latinoamérica."
         </p>
         <div class="flex items-center justify-center gap-6 mt-14">
-  <span class="h-px w-12 bg-gold/30"></span>
-  <span class="text-gold text-6xl opacity-70">•</span>
-  <span class="h-px w-12 bg-gold/30"></span>
-</div>
-
+          <span class="h-px w-12 bg-white/30"></span>
+          <span class="text-white text-6xl opacity-70">•</span>
+          <span class="h-px w-12 bg-white/30"></span>
+        </div>
       </article>
     </div>
   </section>

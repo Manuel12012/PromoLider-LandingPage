@@ -4,7 +4,7 @@
       <div class="grid grid-cols-2 gap-12 items-center">
         <!--CONTENIDO-->
         <div class="col-span-1">
-          <h1 class="text-6xl text-green-600">
+          <h1 class="text-5xl text-white">
             ¿Porque buscamos lideres ya consolidados?
           </h1>
           <h2 class="text-5xl mt-5 text-gray-500">

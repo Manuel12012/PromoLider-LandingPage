@@ -37,7 +37,7 @@
 
           <div class="flex flex-col sm:flex-row gap-5 mt-10">
             <button
-              class="text-black rounded-md px-6 py-3 bg-green-500 cursor-pointer transition hover:bg-green-400"
+              class="text-black rounded-md px-6 py-3 bg-green-600 cursor-pointer transition hover:bg-green-500"
             >
               Postulacion Directa
             </button>
