@@ -1,8 +1,8 @@
 <template>
-  <nav class="bg-black border-b border-gray-500 sticky top-0">
+  <nav class="bg-black/90 border-b border-gray-500 sticky top-0 z-50 backdrop-blur-xs">
     <div class="flex justify-around p-5 items-center">
       <div>
-        <h1 class="text-4xl text-[#E4BB61] font-bold">PromoLider</h1>
+        <h1 class="text-4xl text-green-600 font-bold">PromoLider</h1>
       </div>
 
       <div class="text-gray-300 flex gap-5">
