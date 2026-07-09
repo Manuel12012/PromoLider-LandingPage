@@ -4,7 +4,7 @@
       <div>
         <h1 class="text-white text-6xl">
           La lección de los gigantes
-          <span class="text-green-500">(La propiedad de la red)</span>
+          <span class="text-green-600">(La propiedad de la red)</span>
         </h1>
 
         <p class="text-white mt-5 leading-7">
@@ -28,7 +28,7 @@
 
         <div class="cols-span-1">
           <div class="border rounded-xl shadow-[0_0_30px_rgba(34,197,94,0.35)]  border-green-500 p-14">
-            <h2 class="text-green-500 text-5xl">PROMOLIDER entrega las llaves de la red</h2>
+            <h2 class="text-green-600 text-5xl">PROMOLIDER entrega las llaves de la red</h2>
             <p class="text-white leading-7 mt-10">
               Esta convocatoria no es para que promuevas un software más en
               internet. Es para que te conviertas en el dueño de tu propio canal

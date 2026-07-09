@@ -6,7 +6,7 @@ defineProps<{
 
 <template>
   <svg
-    :class="`w-5 h-5 ${color ?? 'text-green-500'} shrink-0`"
+    :class="`w-5 h-5 ${color ?? 'text-green-600'} shrink-0`"
     fill="none"
     stroke="currentColor"
     viewBox="0 0 24 24"

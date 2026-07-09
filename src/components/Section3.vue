@@ -20,7 +20,7 @@
         </div>
 
         <div class="col-span-1">
-          <h1 class="text-green-500 uppercase">
+          <h1 class="text-green-600 uppercase">
             Mensaje del CEO de Promolider
           </h1>
 

@@ -5,7 +5,7 @@
         <!-- CONTENIDO -->
         <div class="col-span-2">
           <span
-            class="inline-block text-green-500 border border-green-500 rounded-lg px-3 py-1 text-xs"
+            class="inline-block text-green-600 border border-green-500 rounded-lg px-3 py-1 text-xs"
           >
             LATAM INITIATIVE 2026
           </span>
@@ -19,7 +19,7 @@
           >
             No buscamos clientes.
           </h2>
-          <h1 class="text-green-500 block text-6xl">
+          <h1 class="text-green-600 block text-6xl">
             Buscamos a los 5 builders extraordinarios
           </h1>
           <h2
@@ -51,12 +51,19 @@
         </div>
 
         <!-- IMAGEN -->
-        <div class="col-span-1">
-          <img
-            alt="A sophisticated 3D visual representing connection and technological growth in Latin America. Floating glass prisms are interconnected by golden glowing fibers against a dark obsidian background. Cinematic lighting highlights the sharp edges of the glass and the warmth of the gold energy lines, creating a premium high-tech aesthetic."
-            class="w-full object-contain"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAnhLVLS7Ks_XUTxMyXNTxQK7lcljSaU39NJrz1sTTd0yEQzWQlHF6HXUXQKNjFjGxJj7J99OLdHnGVB98mK3NJBczmYekiZOnebwwnwfK7xHWyiPt_F-32U_2hkAnE5uqbIQ-leLmnYjTRbJydSduTuL1nQ7loMoF1r15CDRc5OQh_HdZ3DLb4nGauJKpqYHaAaiSmDbRn4avhU0XsG78upcR7nYQQJjeCCAYNl6-fPfGN6ZO8kleX5QkFdfD7_dMYhq6gtn5HsbQ"
-          />
+        <div class="relative flex justify-center">
+          <!-- Glow -->
+          <div
+            class="absolute w-[80%] h-[80%] rounded-full bg-gold/10 blur-[120px]"
+          ></div>
+
+          <!-- Marco -->
+      
+            <img
+              src="/hero_.png"
+              class="w-full rounded-md object-contain drop-shadow-[0_20px_60px_rgba(228,187,97,.18)]"
+            />
+          
         </div>
       </div>
     </div>
