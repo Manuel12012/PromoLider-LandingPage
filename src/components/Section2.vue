@@ -5,9 +5,7 @@
       <div class="max-w-3xl mb-16">
         <h1 class="text-white text-4xl font-semibold mb-6">
           LA REALIDAD HOY
-          <span class="text-gray-400 text-2xl block mt-2">
-            (La Base de Nuestra Credibilidad)
-          </span>
+
         </h1>
 
         <p class="text-gray-500 leading-8 mb-5">

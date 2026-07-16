@@ -4,9 +4,7 @@
       <h2 class="text-white text-2xl uppercase text-center font-bold">
         Tu visualizacion a un año
       </h2>
-      <h1 class="text-white text-4xl text-center mt-7">
-        (La identidad del Founding Partner)
-      </h1>
+
       <p class="text-gray-400 mt-7 text-center">
         Los profesionales con alto desempeño no toman decisiones por dinero; las
         toman por identidad. Si logras consolidar tu lugar entre los 5 Founding

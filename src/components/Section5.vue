@@ -4,7 +4,7 @@
       <div>
         <h1 class="text-white text-5xl">
           La lección de los gigantes
-          (La propiedad de la red)
+          
         </h1>
 
         <p class="text-white mt-5 leading-7">

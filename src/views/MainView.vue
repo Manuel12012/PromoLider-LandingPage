@@ -9,6 +9,10 @@ import Section6 from '../components/Section6.vue';
 import Section7 from '../components/Section7.vue';
 import Section8 from '../components/Section8.vue';
 import Section9 from '../components/Section9.vue';
+import Section10 from '../components/Section10.vue';
+import Section11 from '../components/Section11.vue';
+import Form from '../components/Form.vue';
+import Footer from '../components/Footer.vue';
 
 </script>
 
@@ -25,5 +29,9 @@ import Section9 from '../components/Section9.vue';
          <Section7/>
          <Section8/>
          <Section9/>
+         <Section10/>
+         <Section11/>
+         <Form/>
+         <Footer/>
     </main>
 </template>

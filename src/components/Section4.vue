@@ -7,9 +7,6 @@
           <h1 class="text-5xl text-white">
             ¿Porque buscamos lideres ya consolidados?
           </h1>
-          <h2 class="text-5xl mt-5 text-gray-500">
-            (De la tecnologia al movimiento)
-          </h2>
 
           <p class="mt-5 text-white">
             Hemos construido la tecnología. Ahora buscamos a quienes puedan

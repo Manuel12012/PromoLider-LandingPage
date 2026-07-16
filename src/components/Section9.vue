@@ -27,12 +27,12 @@
 
           <div class="border-l border-amber-50 p-7">
             <h3 class="uppercase text-white">Founding Owners</h3>
-            <p class="text-white leading-7 mt-5">
+            <p class="text-gray-400 leading-7 mt-5">
               Aquellos que controlan el canal. Reciben participación por el
               valor que otros crean en su red.
             </p>
           </div>
-        </div>
+        </div>  
 
         <div
           class="absolute bottom-0 left-1/2 -translate-x-1/2 w-2/3 h-px bg-gradient-to-r from-transparent via-amber-300/50 to-transparent"
