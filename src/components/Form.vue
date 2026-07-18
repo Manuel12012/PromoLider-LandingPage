@@ -62,6 +62,7 @@
           <button
             type="submit"
             class="w-full rounded-xl bg-green-600 py-4 font-semibold text-white transition hover:bg-green-500"
+            @click="toRealForm"
           >
             Enviar mi aplicación
           </button>
@@ -75,3 +76,13 @@
     </div>
   </section>
 </template>
+
+<script setup>
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+
+const toRealForm = ()=>{
+  router.push("/apply")
+}
+</script>

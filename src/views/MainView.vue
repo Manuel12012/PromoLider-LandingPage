@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import Hero from '../components/Hero.vue';
 import NavBar from '../components/NavBar.vue';
 import Section2 from '../components/Section2.vue';
