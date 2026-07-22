@@ -19,6 +19,7 @@
               type="radio"
               name="perfil"
               :value="perfil"
+              v-model="store.form.profesional.perfil"
               class="h-4 w-4 accent-green-500"
             />
             <span>{{ perfil }}</span>
@@ -35,6 +36,7 @@
         <input
           type="text"
           placeholder="Describe tu actividad actual"
+          v-model="store.form.profesional.ocupacion"
           class="w-full rounded-xl border border-white/10 bg-[#1A1A1A] px-5 py-4 text-white placeholder-gray-500 outline-none transition focus:border-green-500"
         />
       </div>
@@ -55,6 +57,7 @@
               type="radio"
               name="experiencia"
               :value="item"
+              v-model="store.form.profesional.experiencia"
               class="h-4 w-4 accent-green-500"
             />
             <span>{{ item }}</span>
@@ -78,6 +81,7 @@
               type="radio"
               name="equipos"
               :value="item"
+              v-model="store.form.profesional.comunidades"
               class="h-4 w-4 accent-green-500"
             />
             <span>{{ item }}</span>
@@ -100,6 +104,7 @@
             <input
               type="radio"
               name="conferencias"
+              v-model="store.form.profesional.entrenamientos"
               :value="item"
               class="h-4 w-4 accent-green-500"
             />
@@ -112,6 +117,8 @@
 </template>
 
 <script setup>
+import { useApplicationStore } from "../../stores/AplicationStore";
+
 const perfiles = [
   "Coach",
   "Mentor",
@@ -145,4 +152,6 @@ const conferencias = [
   "Frecuentemente",
   "Es parte de mi profesión",
 ];
+
+const store = useApplicationStore();
 </script>

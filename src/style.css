@@ -28,5 +28,8 @@ main{
   .text-primary{
     color: #16A34A;
   }
-
+  
+html {
+  scroll-behavior: smooth;
+}
 }

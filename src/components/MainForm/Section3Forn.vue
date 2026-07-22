@@ -19,6 +19,7 @@
               type="radio"
               name="fortaleza"
               :value="item"
+              v-model="store.form.liderazgo.fortaleza"
               class="h-4 w-4 accent-green-500"
             />
             <span>{{ item }}</span>
@@ -42,6 +43,7 @@
               type="radio"
               name="comunidad"
               :value="item"
+              v-model="store.form.liderazgo.audiencia"
               class="h-4 w-4 accent-green-500"
             />
             <span>{{ item }}</span>
@@ -65,6 +67,7 @@
               type="checkbox"
               name="canales"
               :value="item"
+              v-model="store.form.liderazgo.canales"
               class="h-4 w-4 rounded accent-green-500"
             />
             <span>{{ item }}</span>
@@ -76,6 +79,10 @@
 </template>
 
 <script setup>
+import { useApplicationStore } from '../../stores/aplicationStore';
+
+
+const store = useApplicationStore();
 const fortalezas = [
   "Liderazgo",
   "Comunicación",

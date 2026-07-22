@@ -20,6 +20,7 @@
               type="radio"
               name="tiempo"
               :value="item"
+              v-model="store.form.compromiso.disponibilidad"
               class="h-4 w-4 accent-green-500"
             />
             <span>{{ item }}</span>
@@ -42,6 +43,7 @@
             <input
               type="radio"
               name="entrenamientos"
+              v-model="store.form.compromiso.entrenamientoVivo"
               :value="item"
               class="h-4 w-4 accent-green-500"
             />
@@ -70,6 +72,7 @@
               type="checkbox"
               name="aportes"
               :value="item"
+              v-model="store.form.compromiso.aportes"
               class="h-4 w-4 rounded accent-green-500"
             />
             <span>{{ item }}</span>
@@ -81,6 +84,10 @@
 </template>
 
 <script setup>
+import { useApplicationStore } from '../../stores/aplicationStore';
+
+
+const store = useApplicationStore();
 const disponibilidad = ["Sí", "No"];
 
 const aportes = [

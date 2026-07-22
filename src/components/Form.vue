@@ -1,7 +1,9 @@
 <template>
   <section class="bg-black py-20">
     <div class="mx-auto max-w-7xl px-6">
-      <div class="mx-auto max-w-2xl rounded-3xl border border-white/10 bg-[#111111] p-10 shadow-2xl">
+      <div
+        class="mx-auto max-w-2xl rounded-3xl border border-white/10 bg-[#111111] p-10 shadow-2xl"
+      >
         <!-- Encabezado -->
         <div class="mb-8 text-center">
           <span
@@ -22,15 +24,16 @@
         </div>
 
         <!-- Formulario -->
-        <form class="space-y-6">
+        <form class="space-y-6" @submit.prevent="startApplication">
           <div>
             <label class="mb-2 block text-sm font-medium text-gray-300">
-              Nombre completo
+              Nombre completo 
             </label>
 
             <input
               type="text"
               placeholder="Ingresa tu nombre"
+              v-model="form.nombre"
               class="w-full rounded-xl border border-white/10 bg-[#1A1A1A] px-5 py-4 text-white placeholder-gray-500 outline-none transition focus:border-green-500"
             />
           </div>
@@ -43,6 +46,7 @@
             <input
               type="tel"
               placeholder="+51 999 999 999"
+              v-model="form.whatsapp"
               class="w-full rounded-xl border border-white/10 bg-[#1A1A1A] px-5 py-4 text-white placeholder-gray-500 outline-none transition focus:border-green-500"
             />
           </div>
@@ -55,6 +59,7 @@
             <input
               type="email"
               placeholder="correo@ejemplo.com"
+              v-model="form.email"
               class="w-full rounded-xl border border-white/10 bg-[#1A1A1A] px-5 py-4 text-white placeholder-gray-500 outline-none transition focus:border-green-500"
             />
           </div>
@@ -62,7 +67,6 @@
           <button
             type="submit"
             class="w-full rounded-xl bg-green-600 py-4 font-semibold text-white transition hover:bg-green-500"
-            @click="toRealForm"
           >
             Enviar mi aplicación
           </button>
@@ -78,11 +82,28 @@
 </template>
 
 <script setup>
-import { useRouter } from 'vue-router';
+import { reactive } from "vue";
+import { useRouter } from "vue-router";
 
 const router = useRouter();
 
-const toRealForm = ()=>{
-  router.push("/apply")
-}
+const form = reactive({
+  nombre: "",
+  whatsapp: "",
+  email: "",
+});
+
+const startApplication = () => {
+  const lead = {
+    nombre: form.nombre,
+    whatsapp: form.whatsapp,
+    email: form.email,
+  };
+
+  console.log("LEAD GUARDADO:", lead);
+
+  localStorage.setItem("applicationLead", JSON.stringify(lead));
+
+  router.push("/apply");
+};
 </script>

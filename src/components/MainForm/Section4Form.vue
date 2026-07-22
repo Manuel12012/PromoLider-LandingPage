@@ -1,8 +1,6 @@
 <template>
   <div>
-    <h2 class="uppercase text-xl text-white mb-10">
-      Visión
-    </h2>
+    <h2 class="uppercase text-xl text-white mb-10">Visión</h2>
 
     <div class="space-y-8">
       <!-- Pregunta 1 -->
@@ -14,6 +12,7 @@
         <textarea
           rows="4"
           placeholder="Comparte qué despertó tu interés..."
+          v-model="store.form.vision.convocatoria"
           class="w-full rounded-xl border border-white/10 bg-[#1A1A1A] px-5 py-4 text-white placeholder-gray-500 outline-none transition focus:border-green-500 resize-none"
         ></textarea>
       </div>
@@ -26,6 +25,7 @@
 
         <textarea
           rows="4"
+          v-model="store.form.vision.porque_founding_partner"
           placeholder="Cuéntanos por qué deseas ser parte de este proyecto..."
           class="w-full rounded-xl border border-white/10 bg-[#1A1A1A] px-5 py-4 text-white placeholder-gray-500 outline-none transition focus:border-green-500 resize-none"
         ></textarea>
@@ -47,6 +47,7 @@
               type="radio"
               name="motivacion"
               :value="item"
+              v-model="store.form.vision.motivacion"
               class="h-4 w-4 accent-green-500"
             />
 
@@ -59,6 +60,10 @@
 </template>
 
 <script setup>
+import { useApplicationStore } from '../../stores/aplicationStore';
+
+
+const store = useApplicationStore();
 const motivaciones = [
   "Construir un legado",
   "Enseñar",
